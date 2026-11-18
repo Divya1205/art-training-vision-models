@@ -1,0 +1,37 @@
+# Saved results and embeddings (large; regenerate with the notebooks)
+results/*
+!results/README.md
+art_results/
+*.npz
+*.npy
+*.pt
+*.pth
+*.safetensors
+
+# Images: never commit paintings or figures that show them
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+*.pdf
+# To add a figure that shows no artworks, put it in docs/figures/ and remove this ignore for it:
+# !docs/figures/*.png
+
+# Secrets
+.env
+*.env
+.secrets*
+hf_token*
+kaggle.json
+
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db

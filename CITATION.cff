@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite it as below. The accompanying manuscript is in preparation."
+title: "Learning art by names or by looking: code for a pilot study on how the training signal reshapes a vision model's view of art"
+type: software
+authors:
+  - family-names: "YOUR FAMILY NAME"
+    given-names: "YOUR GIVEN NAME"
+    # orcid: "https://orcid.org/0000-0000-0000-0000"
+    # affiliation: "YOUR INSTITUTION"
+repository-code: "https://github.com/Divya1205/art-training-vision-models"
+license: MIT
+version: "0.1.0"
+keywords:
+  - representation learning
+  - vision transformers
+  - DINOv2
+  - DINOv3
+  - empirical aesthetics
+  - art perception

@@ -1,19 +1,32 @@
 cff-version: 1.2.0
-message: "If you use this code, please cite it as below. The accompanying manuscript is in preparation."
-title: "Learning art by names or by looking: code for a pilot study on how the training signal reshapes a vision model's view of art"
+title: "Learning art by names or by looking: how the training signal reshapes a vision model's view of art"
+message: "If you use this software, please cite it as below."
 type: software
 authors:
-  - family-names: "YOUR FAMILY NAME"
-    given-names: "YOUR GIVEN NAME"
-    # orcid: "https://orcid.org/0000-0000-0000-0000"
-    # affiliation: "YOUR INSTITUTION"
+  - family-names: "Sitani"
+    given-names: "Divya"
+    affiliation: "Independent Researcher"
 repository-code: "https://github.com/Divya1205/art-training-vision-models"
-license: MIT
-version: "0.1.0"
+abstract: >
+  Code for a controlled comparison of two ways of further training
+  pretrained vision models (DINOv2-small and DINOv3-small) on 960
+  WikiArt paintings from eight styles: labels (predicting each
+  painting's style) and exposure (a contrastive objective with no
+  style names). One notebook trains all conditions and computes every
+  result: style accessibility and presence probes, style organisation,
+  the abstract-versus-representational distance with painting-level
+  and spread-controlled measures, controls, exact null tests and
+  image-statistics checks. No images are redistributed; paintings are
+  loaded from the public huggan/wikiart dataset at run time.
 keywords:
-  - representation learning
-  - vision transformers
-  - DINOv2
-  - DINOv3
-  - empirical aesthetics
-  - art perception
+  - representation-learning
+  - vision-transformers
+  - self-supervised-learning
+  - contrastive-learning
+  - probing
+  - art-perception
+  - expertise
+  - neuroaesthetics
+license: MIT
+date-released: 2026-11-18
+version: 0.1.0
